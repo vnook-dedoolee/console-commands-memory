@@ -52,6 +52,9 @@
 |:---------------------------------------------------------------------|:----------------------------------------------------------------|
 | `java -XshowSettings:properties -version 2>&1 ║ findstr "java.home"` | Показывает, где лежит java.                                     |
 | `netsh wlan show networks mode=bssid`                                | Показывает все доступные Wi-Fi сети в режиме подробного вывода. |
+| `netsh wlan show profiles`                                           | Показывает профили, к которым было подключение.                 |
+| `netsh wlan show profiles`                                           | Показывает профили, к которым было подключение.                 |
+| `netsh wlan delete profile name="<profile_name>"`                    | Удалить определённый профиль Wi-Fi.                             |
 
 
 ---
